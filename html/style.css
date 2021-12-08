@@ -1,0 +1,125 @@
+/* RESPONSIVE BY Jaareet#0097 */
+
+body {
+	background-color: transparent;
+	overflow: hidden;
+}
+
+.apple-watch {
+	overflow: hidden;
+	background: transparent;
+	width: 15vw;
+	height: 17vw;
+	border-radius: 2vw;
+	padding: .5vw;
+	box-sizing: border-box;
+	border: .15vw solid #bcbcbc;
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+}
+
+
+#logo2{
+	width: 7%;
+	opacity: 1.0;
+	position: absolute;
+	top: 110px;
+	right: 25px;  
+}
+
+.apple-watch__screen {
+	background: #030303;
+	height: 100%;
+	border-radius: 2vw;
+	box-sizing: border-box;
+	padding: 1.5vw;
+	overflow: hidden;
+}
+
+.apple-watch__screen img {
+	border-radius: .5vw;
+	height: 100%;
+}
+
+.apple-watch--space-gray {
+	background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+	border-color: #ffffff;
+}
+
+
+
+.progress-inner {
+	position: absolute;
+	height: 100%;
+	width: 0%;
+	/* background-color: rgb(255, 0, 0); */
+	border-radius: 0.9vw;
+	transition: 800ms width;
+}
+
+.progress-container {
+	position: absolute;
+	width: 8.8vw;
+	height: 0.8vw;
+	background-color: black;
+	border: .15vw solid white;
+	border-radius: 0.9vw;
+	left: 12%;
+	top:30%;
+  }
+
+  
+.div-izquierda {
+	position: relative;
+	top: 10%;
+	width: 20vw;
+	height: 2vw;
+	background-color: rgb(0, 0, 0);
+	/* border-radius: 1vh; */
+	/* padding-left: 1.0vh; */
+	display: flex;
+	align-items: center;
+}
+  
+  
+  
+  
+.div-izquierda i {
+	font-size: 1vw;
+	color: white;
+
+}
+.div-izquierda p {
+	font-size: 2vw;
+	color: white;
+}
+
+@media only screen and (max-width: 400px) {
+	.apple-watch {
+		position: absolute;
+		right: 20%;
+		bottom: 10%;
+		transform: scale(3);
+	}
+}
+
+@media only screen and (max-width:200px) {
+	.apple-watch {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 10%;
+		transform: scale(3.5);
+	}
+}
+
+@media only screen and (max-width:53px) {
+	.apple-watch {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 10%;
+		transform: scale(5);
+	}
+}
