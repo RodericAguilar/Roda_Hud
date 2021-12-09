@@ -7,7 +7,7 @@ window.addEventListener("message", function(event) {
         $('#logo2').attr('src', evento.logo);
         $('.servername').html(evento.name);
         $('#hearthlevel').css('width', evento.health+ '%');
-        $('#shieldlevel').css('width', evento.fuel+ '%');
+        $('#shieldlevel').css('width', evento.armour+ '%');
         $('#waterlevel').css('width', evento.thirst+ '%');
         $('#comidalevel').css('width', evento.food+ '%'); 
         $('#staminalevel').css('width', evento.stamina+ '%'); 
